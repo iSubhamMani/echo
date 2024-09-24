@@ -43,10 +43,7 @@ const InvitationBox = () => {
         dispatcher(setHasMoreInvitations(false));
       }
     } catch (error) {
-      toast.error("Error getting invitations", {
-        duration: 4000,
-        position: "top-center",
-      });
+      console.log("Error getting invitations");
     } finally {
       dispatcher(setInvitationLoading(false));
     }

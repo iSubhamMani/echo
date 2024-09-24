@@ -73,10 +73,10 @@ const ChatsPage = () => {
             <Separator orientation="vertical" />
           </div>
           <div className="w-full mt-6 xl:mt-0 xl:ml-4">
-            <h2 className="px-3 2xl:px-16 font-bold text-slate-500 text-2xl lg:text-3xl">
+            <h2 className="px-3 md:px-6 xl:px-0 font-bold text-slate-500 text-2xl lg:text-3xl">
               Your conversations
             </h2>
-            <div className="pr-4 md:pr-6 lg:flex lg:justify-between lg:gap-6">
+            <div className="md:px-4 xl:pl-0 xl:pr-6 lg:flex lg:justify-between lg:gap-6">
               <Conversations />
               <div className="hidden lg:inline-block">
                 <InvitationBox />
